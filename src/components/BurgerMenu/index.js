@@ -1,8 +1,7 @@
 import {Wrapper} from './styles'
 import {CiMenuBurger} from 'react-icons/ci'
 import { useState, useRef, useEffect } from 'react'
-import { useSwipeable } from 'react-swipeable' // importe o useSwipeable aqui
-
+import { useSwipeable } from 'react-swipeable'
 export function BurgerMenu(props) {
   const [open, setIsOpen] = useState(false)
   const wrapperRef = useRef(null);
